@@ -1,16 +1,16 @@
 // --------------------------------------------------------------------------
-// Utils: collection of string manipulation
-// Author: Maeltrine
+// Parsing: collection of string manipulation
+// Author: Emmehandes
 // License: MIT
 // --------------------------------------------------------------------------
-#ifndef H
-#define H
+#ifndef PARSING_H
+#define PARSING_H
 
 #include <string>
 
 #define WHITESPACE (" \t\n\r\f\v")
 
-namespace utils
+namespace parsing
 {
   std::string& ltrim(std::string& s, const char* t = WHITESPACE);
   std::string& rtrim(std::string& s, const char* t= WHITESPACE);

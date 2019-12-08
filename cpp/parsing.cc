@@ -1,13 +1,13 @@
 // --------------------------------------------------------------------------
-// Utils: collection of string manipulation
-// Author: Maeltrine
+// Parsing: collection of string manipulation
+// Author: Emmehandes
 // License: MIT
 // --------------------------------------------------------------------------
 #include <iomanip>
 #include <algorithm>
-#include "Utils.hpp"
+#include "parsing.hpp"
 
-namespace utils
+namespace parsing
 {
 
 /* @Trim from left side
